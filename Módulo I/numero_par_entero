@@ -1,0 +1,10 @@
+numero = int(input("Ingrese un número entero positivo: "))
+
+# Validar que el número sea positivo
+if numero > 0:
+        # Calcular la suma de 1 hasta el número ingresado
+        suma = (numero * (numero + 1)) / 2
+        
+        print(f"La suma de los números desde 1 hasta {numero} es {suma}.")
+else:
+        print("Por favor, ingrese un número entero positivo.")
